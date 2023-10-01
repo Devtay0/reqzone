@@ -1,0 +1,81 @@
+
+
+body {
+    background-image: url(https://reqzone.com/build/assets/auth-bg-8529ec0e.svg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+}
+
+img {
+    width: 14rem;
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    padding: 2rem;
+    width: 23rem;
+    height: 20rem;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255);
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-weight: 200;
+}
+
+label {
+    font-size: 1rem;
+}
+
+.input {
+    width: 22rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    border: 1px solid grey;
+    outline: none;
+}
+
+
+
+input:focus {
+    border: 1px solid #F65F54;
+    box-shadow: 0 8px 50px 0 #F65F54;
+}
+
+.btn {
+    padding:  0.6rem;
+    display: inline-block;
+    border-radius: 5px;
+    width: 22rem;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+
+.btn__create {
+    background-color: #F65F54;
+    color: #ffffff;
+    transition: all 0.7s ease-in-out;
+}
+
+.btn__create:hover {
+    background-color: rgb(29, 29, 29);
+}
+
+.password {
+    display: flex;
+    justify-content: space-between;
+}
